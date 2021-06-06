@@ -132,9 +132,7 @@ function App() {
         </Route>
 
         <Route path="/shoppingcart">
-          <Grid>
-            <ShoppingCart shoppingCart={shoppingCart} />
-          </Grid>
+          <ShoppingCart shoppingCart={shoppingCart} />
         </Route>
       </Switch>
     </div>
